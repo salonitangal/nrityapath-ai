@@ -1,0 +1,40 @@
+{
+  "mode": "movement",
+  "level": "intermediate",
+  "rasa": "none",
+  "steps": [
+    {
+      "id": "S1",
+      "posture": "SAM",
+      "hand_mudra": "TRI",
+      "movement": "TURN_L",
+      "beats": "1B",
+      "direction": "LEFT",
+      "description": "A swift half-turn to the Left side (90 degrees), ending in Samapada with Tripataka held high in the right hand.",
+      "rasa_expression": "none",
+      "teaching_note": "Focus on spotting (head turning last) to maintain balance and achieve a clean, sharp landing in Samapada."
+    },
+    {
+      "id": "S2",
+      "posture": "SAM",
+      "hand_mudra": "TRI",
+      "movement": "STATIC",
+      "beats": "4B",
+      "direction": "LEFT",
+      "description": "Hold the static Samapada pose facing Left for four beats, maintaining a straight, stable body line.",
+      "rasa_expression": "none",
+      "teaching_note": "Engage the core and check alignment: straight back, relaxed shoulders, eyes focused straight ahead in the new direction."
+    },
+    {
+      "id": "S3",
+      "posture": "SAM",
+      "hand_mudra": "TRI",
+      "movement": "BWD",
+      "beats": "2B",
+      "direction": "LEFT",
+      "description": "Execute two controlled backward steps (R-L) maintaining the alignment, still facing Left.",
+      "rasa_expression": "none",
+      "teaching_note": "Ensure the steps are even and close to the ground; avoid lifting the knees or rocking the torso during the backward motion."
+    }
+  ]
+}
