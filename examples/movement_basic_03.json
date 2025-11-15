@@ -1,0 +1,29 @@
+{
+  "mode": "movement",
+  "level": "advanced",
+  "rasa": "veera",
+  "steps": [
+    {
+      "id": "S1",
+      "posture": "MND",
+      "hand_mudra": "KAT",
+      "movement": "STATIC",
+      "beats": "1B",
+      "direction": "FRONT",
+      "description": "Execute a sharp transition of both hands from Pataka to Katakamukha mudra (Vartana) simultaneously, maintaining a low, stable Mandi (Muzhumandi) posture.",
+      "rasa_expression": "Raised, steady chest and a fixed, resolute gaze; shoulders held back with determination.",
+      "teaching_note": "The transition must be precise, occurring entirely within the single beat; utilize subtle wrist movement for the 'snap' into Katakamukha."
+    },
+    {
+      "id": "S2",
+      "posture": "MND",
+      "hand_mudra": "KAT",
+      "movement": "TURN_L",
+      "beats": "1B",
+      "direction": "DIAGONAL_L",
+      "description": "Perform a powerful, controlled pivot-turn to land sharply facing the Diagonal-Left direction, remaining low in Mandi posture throughout.",
+      "rasa_expression": "Torso lifts slightly (Udvahitam) and then sharply resettles in the Mandi; firm, unwavering eye contact in the new direction.",
+      "teaching_note": "Integrate the torso and head dynamics (Shirō Bhedās) into the turn for expressive layering; ensure an immediate, clean stop without wobbling upon landing."
+    }
+  ]
+}
