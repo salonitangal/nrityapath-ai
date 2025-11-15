@@ -1,0 +1,29 @@
+{
+  "mode": "movement",
+  "level": "beginner",
+  "rasa": "none",
+  "steps": [
+    {
+      "id": "S1",
+      "posture": "ARA",
+      "hand_mudra": "ALA",
+      "movement": "TURN_R",
+      "beats": "1B",
+      "direction": "RIGHT",
+      "description": "Execute a controlled pivot on the spot to face the Right side, maintaining the Araimandi posture and Alapadma mudra.",
+      "rasa_expression": "none",
+      "teaching_note": "Keep the center of gravity low and stable; avoid rising up out of Araimandi during the turn."
+    },
+    {
+      "id": "S2",
+      "posture": "ARA",
+      "hand_mudra": "ALA",
+      "movement": "FWD",
+      "beats": "2B",
+      "direction": "RIGHT",
+      "description": "Take two steps forward (R-L) in the new right-facing direction, keeping the Alapadma mudras held out to the sides.",
+      "rasa_expression": "none",
+      "teaching_note": "Focus on clean foot placement, ensuring the knees are still turned out as the step is taken."
+    }
+  ]
+}
