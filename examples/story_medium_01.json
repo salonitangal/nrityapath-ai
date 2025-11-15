@@ -1,0 +1,51 @@
+{
+  "mode": "story",
+  "level": "beginner",
+  "rasa": "karuna",
+  "steps": [
+    {
+      "id": "S1",
+      "posture": "ARA",
+      "hand_mudra": "PTA",
+      "movement": "FWD",
+      "beats": "4B",
+      "direction": "FRONT",
+      "description": "The devotee takes four simple, even steps forward (R-L-R-L), hands in Pataka (showing direction of travel or general attention), representing the journey towards the temple.",
+      "rasa_expression": "A calm, slightly softened facial expression (Sama Drishthi) suggesting focus on the destination.",
+      "teaching_note": "Focus on maintaining the Araimandi consistently while walking; keep the steps simple and on the heel-flat-foot."
+    },
+    {
+      "id": "S2",
+      "posture": "ARA",
+      "hand_mudra": "ALA",
+      "movement": "STATIC",
+      "beats": "2B",
+      "direction": "FRONT",
+      "description": "Stops the forward movement and slowly raises both hands in Alapadma up to chest level, representing the first sight or dawning awareness of the deity.",
+      "rasa_expression": "A slow, widening of the eyes and a slightly parted mouth (Visamaya) conveying awe and realization.",
+      "teaching_note": "The hand movement should be gentle and upward; the body should remain grounded and still."
+    },
+    {
+      "id": "S3",
+      "posture": "ARA",
+      "hand_mudra": "KAT",
+      "movement": "STATIC",
+      "beats": "2B",
+      "direction": "FRONT",
+      "description": "Hands transition from Alapadma to Katakamukha and are brought close to the chest, preparing for the final offering/prayer.",
+      "rasa_expression": "Gaze is fixed on the invisible deity ahead; a faint, tender droop of the lips conveying gentle devotion/pity (light Karuna).",
+      "teaching_note": "Ensure the Katakamukha mudra is held cleanly and centered; the transition should be slow and deliberate."
+    },
+    {
+      "id": "S4",
+      "posture": "ARA",
+      "hand_mudra": "PTA",
+      "movement": "STATIC",
+      "beats": "4B",
+      "direction": "FRONT",
+      "description": "The hands are joined together in Anjali Mudra (formed by bringing the two Pataka mudras together) and held up in a position of prayer (Pranamya) for four beats.",
+      "rasa_expression": "Head bows slightly (Adhomukha) in reverence; the expression is one of humble and heartfelt devotion (light Karuna).",
+      "teaching_note": "The Anjali mudra should be held above the chest, near the chin; focus on maintaining stillness and stability throughout the four-beat hold."
+    }
+  ]
+}
