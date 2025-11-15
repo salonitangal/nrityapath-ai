@@ -1,0 +1,62 @@
+{
+  "mode": "story",
+  "level": "intermediate",
+  "rasa": "shringara",
+  "steps": [
+    {
+      "id": "S1",
+      "posture": "ARA",
+      "hand_mudra": "PTA",
+      "movement": "STATIC",
+      "beats": "2B",
+      "direction": "FRONT",
+      "description": "The boy stands hesitant, the Pataka mudra held loosely near the chest (showing awareness/self), with a subtle neck movement (Suka-Ānanā) to glance at the girl.",
+      "rasa_expression": "Soft, tentative eye contact (Sama Drishthi) followed by a quick, nervous lowering of the gaze.",
+      "teaching_note": "Utilize a slight, quick weight shift (Kampa) on the heels to show nervous energy while maintaining the Araimandi depth."
+    },
+    {
+      "id": "S2",
+      "posture": "ARA",
+      "hand_mudra": "KAT",
+      "movement": "FWD",
+      "beats": "2B",
+      "direction": "DIAGONAL_R",
+      "description": "Takes a deliberate, single step forward (Right foot) on a slight diagonal, transitioning both hands to Katakamukha mudra (indicating focus and preparation).",
+      "rasa_expression": "A momentary soft focus (Prasanna) in the eyes, showing the decision to approach.",
+      "teaching_note": "The forward step should be graceful, not stomping (avoid Tattu Mettu); ensure the transition into Katakamukha is smooth."
+    },
+    {
+      "id": "S3",
+      "posture": "ARA",
+      "hand_mudra": "TRI",
+      "movement": "FWD",
+      "beats": "4B",
+      "direction": "FRONT",
+      "description": "Performs four slow, controlled forward steps (R-L-R-L) using Tripataka mudra in both hands, signaling a graceful approach.",
+      "rasa_expression": "Gentle, rhythmic Tala (side-to-side neck movement) to show hesitation mixed with sweetness.",
+      "teaching_note": "Maintain a continuous, even flow throughout the four beats; avoid any upward bounce when stepping forward to sustain the intermediate grace."
+    },
+    {
+      "id": "S4",
+      "posture": "ARA",
+      "hand_mudra": "ALA",
+      "movement": "STATIC",
+      "beats": "2B",
+      "direction": "FRONT",
+      "description": "Stops close to the girl, bringing the right hand in Alapadma (representing the flower) and the left hand to Katakamukha near the chest.",
+      "rasa_expression": "A slight tilt of the head (Parivrtta Shiras) with a shy, subtle smile.",
+      "teaching_note": "Hold the Alapadma gently; the flower representation should be held delicately and not too high or low."
+    },
+    {
+      "id": "S5",
+      "posture": "ARA",
+      "hand_mudra": "ALA",
+      "movement": "STATIC",
+      "beats": "2B",
+      "direction": "FRONT",
+      "description": "The right hand holding Alapadma is smoothly and deliberately extended towards the girl (the offer) and held briefly.",
+      "rasa_expression": "The eyes briefly connect with the hand as it extends, then immediately shift to a humble, downcast gaze (Avahittha) to show shyness.",
+      "teaching_note": "The extension must be controlled and even; the power of the expression is in the shift of the eye focus immediately following the action."
+    }
+  ]
+}
