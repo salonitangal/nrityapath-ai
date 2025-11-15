@@ -1,0 +1,219 @@
+Nrityapath AI
+
+AI-powered Bharatanatyam movement & storytelling notation generator
+
+Nrityapath uses AI to convert movement descriptions or narrative stories into structured Bharatanatyam choreography notation — complete with posture glyphs, mudras, beats, expression cues, and teaching notes.
+
+It introduces a brand-new, lightweight notation standard called NNF (Nrityapath Notation Format) for classical dance.
+
+⸻
+
+What is Nrityapath?
+
+Bharatanatyam has traditionally been transmitted orally, visually, and physically — but never through a modern digital notation system.
+
+Nrityapath bridges that gap.
+
+Using AI, it transforms text inputs into clear, structured choreography sequences suitable for:
+	•	learning
+	•	teaching
+	•	documenting
+	•	choreographing
+	•	storytelling
+
+It works in two modes:
+
+1️. Movement → Notation
+
+Short phrases describing posture, mudra, direction, and beats.
+
+2️. Story → Notation
+
+Narrative inputs describing characters, emotions, or scenarios.
+
+Both modes output standardized JSON following the NNF schema.
+
+⸻
+
+Who Is It For?
+
+Primary Users
+	•	Dancers – beginners to advanced
+	•	Choreographers – documenting or ideating sequences
+	•	Students – learning adavus or expressive movement
+
+Secondary Users
+	•	Teachers / Gurus
+	•	Movement storytellers
+	•	Anyone exploring classical arts through digital tools
+
+⸻
+
+Key Features
+
+✔ Text → Structured Dance Notation
+
+Convert movement cues or adavus into step-by-step instructions.
+
+✔ Story → Expressive Choreography
+
+Translate emotions and narratives into dance sequences with rasa.
+
+✔ Stick-Figure / Mudra Visualization (Framer UI)
+
+Each JSON step can be rendered as:
+	•	posture glyph
+	•	hand mudra icon
+	•	directional arrow
+	•	beat timing
+	•	expression cues
+	•	guru-style teaching notes
+
+✔ Designed for AI Genesis Hackathon
+
+Works seamlessly with:
+	•	Gemini (prompting)
+	•	Opus (workflow + audit)
+	•	Framer (UI/visualization)
+
+⸻
+
+NNF — Nrityapath Notation Format
+
+The specification lives in:
+nnf_schema.md
+
+It defines:
+	•	postures (ARA, SAM, MND)
+	•	mudras (ALA, KAT, TRI, PTA)
+	•	movement types (FWD, TURN_R, STATIC, etc.)
+	•	beats (1B, 2B, 4B)
+	•	direction
+	•	rasa expression
+	•	teaching cues
+
+Output Structure (simplified)
+{
+  "mode": "movement",
+  "level": "beginner",
+  "rasa": "none",
+  "steps": [
+      { /* step object */ }
+  ]
+}
+
+Project Structure
+nrityapath-ai/
+│
+├── README.md
+├── nnf_schema.md
+│
+├── prompts/
+│   └── system_prompt.txt
+│
+└── examples/
+    ├── movement_basic_01.json
+    ├── movement_basic_02.json
+    ├── movement_basic_03.json
+    ├── story_basic_01.json
+    ├── story_medium_01.json
+    ├── story_medium_02.json
+    └── story_advanced_01.json
+
+Sample Output (short)
+{
+  "mode": "movement",
+  "level": "beginner",
+  "rasa": "none",
+  "steps": [
+    {
+      "id": "S1",
+      "posture": "ARA",
+      "hand_mudra": "ALA",
+      "movement": "TURN_R",
+      "beats": "1B",
+      "direction": "RIGHT",
+      "description": "Execute a controlled pivot to face the right side.",
+      "rasa_expression": "none",
+      "teaching_note": "Keep the center of gravity low and steady."
+    }
+  ]
+}
+
+More examples are in /examples.
+
+⸻
+
+How it Works
+
+1. Gemini / Google AI Studio
+	•	System prompt enforces the NNF format
+	•	User input → validated JSON output
+	•	Tested on multiple movement + story prompts
+
+2. Opus Workflow
+
+(For hackathon submission)
+	•	LLM node generates NNF
+	•	Rules validate the structure
+	•	Audit artifact logs steps, inputs, confidence, and errors
+	•	Output exported (PDF / JSON / sheet)
+
+3. Framer Prototype
+	•	Paste JSON into UI
+	•	Visual renderer displays steps as glyphs + annotations
+	•	Used for user demo
+
+⸻
+
+Why Nrityapath Matters
+
+Classical dance has rich structure but lacks a digital standard for movement representation.
+
+Nrityapath introduces:
+	•	a new notation language
+	•	AI-assisted choreography
+	•	consistent, reusable structure
+	•	accessibility for modern learners
+	•	a path toward digital archives & creative tools
+
+⸻
+
+🛠️ Setup for Developers
+
+No backend needed yet.
+To test:
+	1.	Open Framer
+	2.	Paste any JSON from /examples
+	3.	Visualize choreography instantly
+
+You can also integrate with Gemini API and Opus.
+
+⸻
+
+Roadmap
+	•	Real-time animated stick figures
+	•	Full mudra SVG library
+	•	Rasa-intensity blending
+	•	Learning progression (Adavus → Jatiswaram → Varnam)
+	•	Voice-to-notation
+	•	Community choreography sharing
+
+⸻
+
+Created By
+
+Saloni Tangal — Product Designer & Creator
+
+⸻
+
+Hackathon
+
+This project is built for Lablab.ai — AI Genesis Hackathon (Nov 15–18).
+
+It is fully structured for:
+	•	Evaluation
+	•	Replication
+	•	Workflow testing
+	•	UI demo
+	•	Extension after the event
