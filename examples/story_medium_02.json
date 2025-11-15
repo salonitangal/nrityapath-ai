@@ -1,0 +1,62 @@
+{
+  "mode": "story",
+  "level": "advanced",
+  "rasa": "raudra",
+  "steps": [
+    {
+      "id": "S1",
+      "posture": "MND",
+      "hand_mudra": "KAT",
+      "movement": "STATIC",
+      "beats": "1B",
+      "direction": "FRONT",
+      "description": "The warrior begins in a powerful, low Mandi posture, hands in taut Katakamukha mudra (Vajra-Mushti substitute) held aggressively near the chest.",
+      "rasa_expression": "Intense, narrow-eyed glare (Dūrpārsvāvalokanam); jaw set and shoulders squared, conveying coiled fury.",
+      "teaching_note": "The Mandi posture must be deep and held with full tension; the gaze must project beyond the viewer, fixing on the imaginary enemy."
+    },
+    {
+      "id": "S2",
+      "posture": "ARA",
+      "hand_mudra": "PTA",
+      "movement": "FWD",
+      "beats": "1B",
+      "direction": "FRONT",
+      "description": "A sharp, decisive step forward with the right foot, rising slightly to Araimandi, transitioning the right hand to Pataka and thrusting it diagonally down (suggesting drawing a weapon).",
+      "rasa_expression": "A flash of fierce anger in the eyes (Roudra Drishthi); quick, visible intake of breath through the nose.",
+      "teaching_note": "The shift from Mandi to Araimandi must be swift and executed with force; the foot-strike must be loud and commanding."
+    },
+    {
+      "id": "S3",
+      "posture": "ARA",
+      "hand_mudra": "PTA",
+      "movement": "FWD",
+      "beats": "2B",
+      "direction": "FRONT",
+      "description": "Two powerful, wide steps forward (R-L) using a forceful Chauka gait, hands remaining low in Pataka to emphasize forward aggression.",
+      "rasa_expression": "A slight tremor (Kampa) in the shoulders and chest to show rising, barely contained rage.",
+      "teaching_note": "Focus on using the entire body to propel forward; the hips and torso must maintain a strong, forward lean."
+    },
+    {
+      "id": "S4",
+      "posture": "ARA",
+      "hand_mudra": "KAT",
+      "movement": "STATIC",
+      "beats": "1B",
+      "direction": "FRONT",
+      "description": "Stops sharply with the left foot planted, left hand returns to Katakamukha near the chest (restraining movement).",
+      "rasa_expression": "The lips curl slightly (Oshtha-Bandha) into a snarl; a silent, aggressive exhale.",
+      "teaching_note": "The stop must be instantaneous and controlled, utilizing muscular tension to immediately halt momentum."
+    },
+    {
+      "id": "S5",
+      "posture": "ARA",
+      "hand_mudra": "PTA",
+      "movement": "STATIC",
+      "beats": "2B",
+      "direction": "FRONT",
+      "description": "The right arm (still Pataka) is brought up and thrust out frontally at shoulder level on the first beat, holding the command (stop/challenge) on the second beat.",
+      "rasa_expression": "The gaze is held unwaveringly (Sthira Drishthi) and focused directly at the imaginary enemy; a momentary widening of the eyes for impact.",
+      "teaching_note": "The arm extension must be straight, taut, and forceful; the torso must support the forward thrust, leaning slightly into the action."
+    }
+  ]
+}
