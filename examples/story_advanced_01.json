@@ -1,0 +1,73 @@
+{
+  "mode": "story",
+  "level": "intermediate",
+  "rasa": "karuna",
+  "steps": [
+    {
+      "id": "S1",
+      "posture": "ARA",
+      "hand_mudra": "KAT",
+      "movement": "STATIC",
+      "beats": "2B",
+      "direction": "FRONT",
+      "description": "The girl pauses suddenly, bringing both hands to Katakamukha near the ears/cheeks, expressing dawning realization and concern.",
+      "rasa_expression": "Eyes widen slightly (Vismaya), then quickly drop to look at the ankle with a look of worry (light Karuna).",
+      "teaching_note": "The transition to stillness must be sharp; utilize a subtle, quick weight shift (Kampa) to show nervous thought."
+    },
+    {
+      "id": "S2",
+      "posture": "ARA",
+      "hand_mudra": "ALA",
+      "movement": "STATIC",
+      "beats": "2B",
+      "direction": "FRONT",
+      "description": "Hands open into Alapadma and are held at chest level while the head turns quickly left and right (Parivartita and Prasarita Shiras) to scan the surroundings.",
+      "rasa_expression": "Quick, restless glances (Chalanadrishthi) left and right, expressing mounting anxiety.",
+      "teaching_note": "Ensure the head movement is separate from the torso; the body must remain stable in Araimandi during the search."
+    },
+    {
+      "id": "S3",
+      "posture": "ARA",
+      "hand_mudra": "PTA",
+      "movement": "TURN_L",
+      "beats": "2B",
+      "direction": "LEFT",
+      "description": "A slow, controlled turn to the Left side (180 degrees) on two beats, right hand in Pataka extended outwards (searching motion).",
+      "rasa_expression": "A sighing look (Nishvasa) of slight despair (Karuna) as the immediate search proves fruitless.",
+      "teaching_note": "The turn must be smooth and steady (Lathā Mudrā-like); avoid an abrupt pivot to sustain the intermediate grace."
+    },
+    {
+      "id": "S4",
+      "posture": "ARA",
+      "hand_mudra": "ALA",
+      "movement": "TURN_R",
+      "beats": "2B",
+      "direction": "FRONT",
+      "description": "A controlled turn back to the Front (180 degrees) on two beats, eyes scanning the floor as the body returns to the starting axis.",
+      "rasa_expression": "The gaze is focused downwards (Adhomukha) intently, meticulously searching the immediate floor area.",
+      "teaching_note": "Ensure the return turn is balanced and centered, maintaining the Araimandi without rising."
+    },
+    {
+      "id": "S5",
+      "posture": "MND",
+      "hand_mudra": "PTA",
+      "movement": "STATIC",
+      "beats": "1B",
+      "direction": "FRONT",
+      "description": "A sudden, quick drop into Muzhumandi (Mandi posture), right hand in Pataka points directly at the floor in front of the foot.",
+      "rasa_expression": "A sharp, focused light in the eyes (Adbhuta) that instantly locks onto the object; the mouth opens in a small 'O' shape.",
+      "teaching_note": "The drop must be executed cleanly and sharply on the single beat; the shift in focus and expression must be immediate and dramatic."
+    },
+    {
+      "id": "S6",
+      "posture": "MND",
+      "hand_mudra": "ALA",
+      "movement": "STATIC",
+      "beats": "2B",
+      "direction": "FRONT",
+      "description": "The right hand switches to Alapadma (to 'pick up' the anklet) and is slowly brought up towards the ear, hands held near the head/ear.",
+      "rasa_expression": "A relieved, happy smile spreads across the face, followed by a soft, grateful look (Adbhuta/Karuna turning to Shanta).",
+      "teaching_note": "Maintain the low Mandi posture throughout the lift; the movement of the arm should be deliberate, showing care for the retrieved object."
+    }
+  ]
+}
