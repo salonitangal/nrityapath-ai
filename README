@@ -217,3 +217,17 @@ It is fully structured for:
 	•	Workflow testing
 	•	UI demo
 	•	Extension after the event
+
+⸻
+
+Opus Workflow
+
+We built a full “Intake → Understand → Decide → Review → Deliver” automation in Opus.
+	•	Intake: user text input
+	•	Understand: NNF Generator (custom agent)
+	•	Decide: validation + rules + agentic review
+	•	Review: human review with schema checks
+	•	Deliver: structured JSON output
+
+Opus Workflow (Public Template Link)
+https://app.opus.com/app/workflow/share/30455570-d049-4e60-90f2-e1a600f6885a
