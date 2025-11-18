@@ -7,31 +7,36 @@ Nrityapath uses AI to convert movement descriptions or narrative stories into st
 It introduces a new, lightweight digital notation standard for classical Indian dance:
 NNF — Nrityapath Notation Format
 
+Built during the AI Genesis Hackathon (Nov 2025) using Gemini + Opus + a custom visual prototype.
+
 ⸻
 
-What Is Nrityapath?
+Why Nrityapath?
 
-Bharatanatyam has been passed down for centuries orally, visually, and physically — but never through a modern digital notation system.
+Bharatanatyam has survived for 2,000 years through oral, visual, and embodied teaching.
+But today, it still has no universal digital notation system.
 
-Nrityapath bridges that gap.
+This creates major gaps:
+	•	Students forget sequences
+	•	Teachers rely on memory instead of documentation
+	•	Learners outside India struggle to stay consistent
+	•	Choreography cannot be archived or shared properly
 
-Using AI, it transforms natural language into clear, structured choreography sequences suitable for:
-	•	learning
-	•	teaching
-	•	documenting
-	•	choreographing
-	•	storytelling
-	•	preservation & archiving
+Nrityapath bridges tradition and technology by converting text → structured choreography → visual steps.
 
-It operates in two modes:
+⸻
 
-Movement → Notation
+What Nrityapath Does
 
-Short phrases describing posture, mudra, direction, and beats.
+Nrityapath generates structured dance notation in two modes:
 
-Story → Notation
+1. Movement → Notation
 
-Narratives describing characters, scenarios, or emotional expressions.
+Short phrases describing posture, mudra, direction, and beats. Example: “araimandi, alapadma, step forward for 2 beats.”
+
+2. Story → Notation
+
+Narratives describing characters, scenarios, or emotional expressions. Prompts like: “A devotee walks toward a temple with light karuna rasa.”
 
 Both modes output standardized JSON following the NNF schema.
 
@@ -45,50 +50,50 @@ Primary Users
 	•	Students learning adavus / abhinaya
 
 Secondary Users
-	•	Teachers / Gurus
-	•	Movement storytellers
-	•	Designers & developers exploring classical arts + AI
-	•	Anyone who learns visually or structurally
+	•	Teachers and academies
+	•	Digital archivists & cultural institutions
+	•	Designers/developers building dance-tech tools
+	•	Anyone who prefers structured visual learning
 
 ⸻
 
 Key Features
 
-✔ Text → Structured Dance Notation
+✔ Natural Language → NNF JSON
 
-Convert phrases or adavus into step-by-step NNF instructions.
+Every prompt is transformed into a structured sequence with:
+	•	Posture (ARA, SAM, MND)
+	•	Mudra (ALA, KAT, PTA, TRI…)
+	•	Movement type (FWD, TURN_R, STATIC…)
+	•	Beats (1B, 2B, 4B)
+	•	Direction
+	•	Rasa expression
+	•	Teaching notes
 
 ✔ Story → Choreography
 
-Translate rasa-based narratives into expressive dance sequences.
+Narratives become expressive step sequences.
 
-✔ NNF Schema
+✔ Visual Renderer (Prototype UI)
 
-Complete with:
-	•	posture codes (ARA, SAM, MND)
-	•	hand mudras (ALA, KAT, TRI, PTA)
-	•	movements (FWD, TURN_R, STATIC…)
-	•	beats (1B, 2B, 4B)
-	•	direction codes
-	•	rasa expression
-	•	teaching notes
+Shows:
+	•	Stick-figure poses
+	•	Mudra & posture icons
+	•	Direction arrows
+	•	Beat markers
+	•	Teaching notes
+	•	Step navigation
 
-✔ Visual Renderer (Framer UI)
+✔ Opus Workflow Integration
 
-Each step can be displayed as:
-	•	stick figure posture
-	•	mudra icon
-	•	direction arrow
-	•	beat timing
-	•	rasa cues
-	•	teaching note
-
-✔ Designed for AI Genesis Hackathon
-
-Built to integrate seamlessly with:
-	•	Gemini (prompting & generation)
-	•	Opus (workflow automation, review, audit)
-	•	Framer (UI visualization)
+Every generation passes through:
+	•	Input intake
+	•	NNF Generator (Gemini)
+	•	Rule-checking (schema validation)
+	•	Agentic Review
+	•	Human Review
+	•	Audit summary
+	•	Clean, final JSON output
 
 ⸻
 
@@ -119,6 +124,7 @@ nrityapath-ai/
 │   └── system_prompt.txt
 │
 └── examples/
+    ├── movement_mandi_adavu_beginner.json   ← fully visualized in prototype
     ├── movement_basic_01.json
     ├── movement_basic_02.json
     ├── movement_basic_03.json
@@ -126,6 +132,19 @@ nrityapath-ai/
     ├── story_medium_01.json
     ├── story_medium_02.json
     └── story_advanced_01.json
+
+
+Featured Example (Fully Visualized)
+
+Only one sequence is currently fully illustrated in the live prototype:
+
+Beginner – Mandi Adavu (Year 2 – Adavu 1)
+
+File: movement_mandi_adavu_beginner.json
+This is the sequence used in the Framer/Bolt UI with four custom stick-figure images.
+
+All other examples exist as JSON for future expansion.
+
 
 Sample Output (short)
 
@@ -175,7 +194,7 @@ Includes:
 	•	Audit Node (JSON summary with timestamps & actions)
 	•	Delivery Node (final clean output)
 
-✔ Satisfies All Hackathon Requirements:
+Satisfies All Hackathon Requirements:
 	•	data import
 	•	deterministic + AI reasoning
 	•	routing & exception handling
@@ -202,15 +221,28 @@ Perfect for demo & judging.
 
 Why Nrityapath Matters
 
-Classical dance has rich structure but no modern notation standard.
+Classical dance has:
+	•	Structured grammar
+	•	Codified mudras
+	•	Defined postures
+	•	Formal rasas
+But no modern notation standard.
 
-Nrityapath introduces:
-	•	a brand-new dance notation language
-	•	AI-assisted choreography generation
-	•	consistency + reusability
-	•	cultural sensitivity + accuracy
-	•	a foundation for digital preservation
-	•	a pathway to future creative tools
+Nrityapath proposes:
+	•	A new digital language for Bharatanatyam
+	•	AI-assisted choreography creation
+	•	Culturally consistent outputs
+	•	Archival possibilities
+	•	Global accessibility
+
+⸻
+
+Tech Stack:
+	•	Chat-GPT (prompting)
+	•	Gemini (generation)
+	•	Opus (workflow automation, review, audit)
+	•	Framer / Bolt.new (UI visualization)
+	•	GitHub — schema + examples + documentation
 
 ⸻
 
@@ -245,11 +277,9 @@ Saloni Tangal — Product Designer & Creator
 
 Hackathon
 
-Built for Lablab.ai – AI Genesis Hackathon (Nov 15–18).
-
-Structured for:
-	•	evaluation
-	•	replication
-	•	workflow testing
+Built for Lablab.ai – AI Genesis Hackathon (Nov 15–18)
+Designed for:
+	•	Evaluation
+	•	Workflow testing
 	•	UI demos
-	•	growth after the event
+	•	Future-scale growth
