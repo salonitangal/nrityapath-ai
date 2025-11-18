@@ -1,0 +1,51 @@
+{
+  "mode": "movement",
+  "level": "beginner",
+  "rasa": "none",
+  "steps": [
+    {
+      "id": "S1",
+      "posture": "ARA",
+      "hand_mudra": "PTA",
+      "movement": "STATIC",
+      "beats": "1B",
+      "direction": "FRONT",
+      "description": "Begin in araimandi with both arms stretched sideways in Pataka, torso upright and weight evenly placed on both feet.",
+      "rasa_expression": "none",
+      "teaching_note": "Check that the knees are well opened, spine tall, and arms in a straight horizontal line without drooping."
+    },
+    {
+      "id": "S2",
+      "posture": "MND",
+      "hand_mudra": "PTA",
+      "movement": "FWD",
+      "beats": "1B",
+      "direction": "RIGHT",
+      "description": "Lower into semi-mandi with the right knee moving toward the floor, torso leaning slightly to the right, while the right arm sweeps forward in a soft curve and the left arm remains extended.",
+      "rasa_expression": "none",
+      "teaching_note": "Keep the back straight even while leaning; control the descent of the right knee and let the arm sweep be smooth, not jerky."
+    },
+    {
+      "id": "S3",
+      "posture": "MND",
+      "hand_mudra": "KAT",
+      "movement": "STATIC",
+      "beats": "1B",
+      "direction": "FRONT",
+      "description": "Hop lightly into a full mandi, knees wide. The right arm drops straight down in Alapadma while the left arm lifts above the head in inverted Katakamukha.",
+      "rasa_expression": "none",
+      "teaching_note": "Land softly into mandi, keeping the core engaged. Make sure the lifted left arm is strong and stable, and the right arm hangs cleanly without tension."
+    },
+    {
+      "id": "S4",
+      "posture": "ARA",
+      "hand_mudra": "KAT",
+      "movement": "STATIC",
+      "beats": "1B",
+      "direction": "FRONT",
+      "description": "From mandi, perform a light hop to return toward araimandi while lifting the right foot so it touches just above the left knee. The right hand comes to Katakamukha near the chest, and the left arm remains gracefully overhead.",
+      "rasa_expression": "none",
+      "teaching_note": "Keep the lifted right leg close to the standing leg and maintain balance. The right hand should form a clear Katakamukha without collapsing the wrist, and the left arm should stay elongated."
+    }
+  ]
+}
